@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    height: 50px;
+    width: 1100px;
+    position: fixed;
+    background-color: rgb(50,50,50);
+    border-radius: 0 0 12px 12px;
+}
+.left_bar {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 40px;
+}
+.file_name {
+    margin-left: 20px;
+    color: #E9E6E6;
+}
+.right_bar {
+    margin-right: 30px;
+}
+.btn {
+    margin: 10px 10px;
+    border: none;
+    background: transparent;
+    color: #E9E6E6;
+    cursor: pointer;
+}
+.info {
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}

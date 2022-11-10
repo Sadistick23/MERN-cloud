@@ -1,0 +1,39 @@
+.profile {
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.wrap {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+    display: grid;
+    margin-right: 20px;
+}
+.avatar img {
+    width: 200px;
+    height: 200px;
+}
+.avatar_btn {
+    margin-top: 20px;
+    display: grid;
+}
+.avatar_btn input {
+    border: none;
+    background: transparent;
+}
+.btn {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+.user_info {
+    margin: 10px;
+}
+.navbar__logout {
+    margin-top: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+}

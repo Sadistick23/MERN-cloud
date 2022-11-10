@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="489792c7-e03d-43a2-8b13-4347abe414ba" name="Changes" comment="deploy 8">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GaMWWhtdXk4CJRaqwkKHmjuBxH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ProjectJavaScript/CloudMERN/client/public",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "D:\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\public" />
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\assets\img" />
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectJavaScript\CloudMERN\client" />
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\public" />
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\components\disk\fileList" />
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\assets\img" />
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="489792c7-e03d-43a2-8b13-4347abe414ba" name="Changes" comment="" />
+      <created>1666622275513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666622275513</updated>
+      <workItem from="1666622277071" duration="2736000" />
+      <workItem from="1666628644238" duration="1152000" />
+      <workItem from="1666701560313" duration="1670000" />
+      <workItem from="1666711681226" duration="1375000" />
+      <workItem from="1666766501630" duration="3209000" />
+      <workItem from="1666782339789" duration="7212000" />
+      <workItem from="1667036488710" duration="3728000" />
+      <workItem from="1667054739218" duration="3590000" />
+      <workItem from="1667128784926" duration="12858000" />
+      <workItem from="1667206576554" duration="1625000" />
+      <workItem from="1667216717446" duration="6261000" />
+      <workItem from="1667227854743" duration="4028000" />
+      <workItem from="1667232423564" duration="4373000" />
+      <workItem from="1667379940141" duration="595000" />
+      <workItem from="1667459621075" duration="18506000" />
+      <workItem from="1667538320585" duration="1818000" />
+      <workItem from="1667564299990" duration="5689000" />
+      <workItem from="1667625354666" duration="30315000" />
+      <workItem from="1667708792372" duration="7619000" />
+      <workItem from="1667721329477" duration="15659000" />
+      <workItem from="1667749102876" duration="4890000" />
+      <workItem from="1667800793599" duration="35613000" />
+      <workItem from="1667883692689" duration="19485000" />
+      <workItem from="1667925131583" duration="3673000" />
+      <workItem from="1667929510030" duration="6351000" />
+      <workItem from="1667977705002" duration="7056000" />
+      <workItem from="1668011413910" duration="7073000" />
+      <workItem from="1668061673715" duration="8682000" />
+      <workItem from="1668082875160" duration="856000" />
+    </task>
+    <task id="LOCAL-00001" summary="deploy react app2">
+      <created>1667930449553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667930449553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deploy react app3">
+      <created>1667930539121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667930539121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deploy react app4">
+      <created>1667931091033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667931091033</updated>
+    </task>
+    <task id="LOCAL-00004" summary="deploy react app6">
+      <created>1667931367483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667931367483</updated>
+    </task>
+    <task id="LOCAL-00005" summary="deploy react app7">
+      <created>1667931661067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667931661067</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deploy react app8">
+      <created>1667932344857</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667932344857</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deploy react app9">
+      <created>1667932663291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667932663291</updated>
+    </task>
+    <task id="LOCAL-00008" summary="deploy server">
+      <created>1667933188121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667933188121</updated>
+    </task>
+    <task id="LOCAL-00009" summary="deploy server2">
+      <created>1667933809753</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667933809753</updated>
+    </task>
+    <task id="LOCAL-00010" summary="deploy server3">
+      <created>1667934091083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667934091083</updated>
+    </task>
+    <task id="LOCAL-00011" summary="deploy server4">
+      <created>1667934193639</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667934193639</updated>
+    </task>
+    <task id="LOCAL-00012" summary="deploy server5">
+      <created>1667935118229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667935118229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="deploy server5">
+      <created>1667935466562</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667935466562</updated>
+    </task>
+    <task id="LOCAL-00014" summary="deploy server6">
+      <created>1667978852603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667978852603</updated>
+    </task>
+    <task id="LOCAL-00015" summary="deploy server7">
+      <created>1667979623401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667979623401</updated>
+    </task>
+    <task id="LOCAL-00016" summary="deploy 8">
+      <created>1667980100818</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667980100818</updated>
+    </task>
+    <task id="LOCAL-00017" summary="deploy 8">
+      <created>1667980609125</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667980609125</updated>
+    </task>
+    <task id="LOCAL-00018" summary="deploy 8">
+      <created>1667983398548</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667983398548</updated>
+    </task>
+    <task id="LOCAL-00019" summary="deploy 8">
+      <created>1667983577504</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667983577504</updated>
+    </task>
+    <task id="LOCAL-00020" summary="deploy 8">
+      <created>1668001149878</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668001149878</updated>
+    </task>
+    <task id="LOCAL-00021" summary="deploy 8">
+      <created>1668001425631</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668001425631</updated>
+    </task>
+    <task id="LOCAL-00022" summary="deploy 8">
+      <created>1668001501226</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668001501226</updated>
+    </task>
+    <task id="LOCAL-00023" summary="deploy 8">
+      <created>1668001752920</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668001752920</updated>
+    </task>
+    <task id="LOCAL-00024" summary="deploy 8">
+      <created>1668011851978</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668011851978</updated>
+    </task>
+    <task id="LOCAL-00025" summary="deploy 8">
+      <created>1668017150604</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668017150604</updated>
+    </task>
+    <task id="LOCAL-00026" summary="deploy 8">
+      <created>1668017439892</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668017439892</updated>
+    </task>
+    <task id="LOCAL-00027" summary="deploy 8">
+      <created>1668017630996</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668017630996</updated>
+    </task>
+    <task id="LOCAL-00028" summary="deploy 8">
+      <created>1668018074410</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018074410</updated>
+    </task>
+    <task id="LOCAL-00029" summary="deploy 8">
+      <created>1668018953289</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018953289</updated>
+    </task>
+    <task id="LOCAL-00030" summary="deploy 8">
+      <created>1668019451084</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019451084</updated>
+    </task>
+    <task id="LOCAL-00031" summary="deploy 8">
+      <created>1668019578483</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019578483</updated>
+    </task>
+    <task id="LOCAL-00032" summary="deploy 8">
+      <created>1668019756368</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019756368</updated>
+    </task>
+    <task id="LOCAL-00033" summary="deploy 8">
+      <created>1668019940373</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019940373</updated>
+    </task>
+    <task id="LOCAL-00034" summary="deploy 8">
+      <created>1668020071940</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020071940</updated>
+    </task>
+    <task id="LOCAL-00035" summary="deploy 8">
+      <created>1668020478802</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020478802</updated>
+    </task>
+    <task id="LOCAL-00036" summary="deploy 8">
+      <created>1668020601006</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020601006</updated>
+    </task>
+    <task id="LOCAL-00037" summary="deploy 8">
+      <created>1668020793016</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020793016</updated>
+    </task>
+    <task id="LOCAL-00038" summary="deploy 8">
+      <created>1668020851961</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020851961</updated>
+    </task>
+    <task id="LOCAL-00039" summary="deploy 8">
+      <created>1668020970260</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020970260</updated>
+    </task>
+    <task id="LOCAL-00040" summary="deploy 8">
+      <created>1668021032343</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021032343</updated>
+    </task>
+    <task id="LOCAL-00041" summary="deploy 8">
+      <created>1668021206735</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021206735</updated>
+    </task>
+    <task id="LOCAL-00042" summary="deploy 8">
+      <created>1668021409803</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021409803</updated>
+    </task>
+    <task id="LOCAL-00043" summary="deploy 8">
+      <created>1668021753948</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021753948</updated>
+    </task>
+    <task id="LOCAL-00044" summary="deploy 8">
+      <created>1668021783587</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021783587</updated>
+    </task>
+    <task id="LOCAL-00045" summary="deploy 8">
+      <created>1668021962743</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021962743</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/server" />
+      <path value="$PROJECT_DIR$/server/service" />
+      <path value="$PROJECT_DIR$/client" />
+      <path value="$PROJECT_DIR$/client/radiant-lowlands-mern" />
+    </ignored-roots>
+    <MESSAGE value="deploy react app" />
+    <MESSAGE value="deploy react app2" />
+    <MESSAGE value="deploy react app3" />
+    <MESSAGE value="deploy react app4" />
+    <MESSAGE value="deploy react app5" />
+    <MESSAGE value="deploy react app6" />
+    <MESSAGE value="deploy react app7" />
+    <MESSAGE value="deploy react app8" />
+    <MESSAGE value="deploy react app9" />
+    <MESSAGE value="deploy server" />
+    <MESSAGE value="deploy server2" />
+    <MESSAGE value="deploy server3" />
+    <MESSAGE value="deploy server4" />
+    <MESSAGE value="deploy server5" />
+    <MESSAGE value="deploy server6" />
+    <MESSAGE value="deploy server7" />
+    <MESSAGE value="deploy 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy 8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+.container {
+    background-color: white;
+    border-radius: 27px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    padding: 30px;
+}
+.login__header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}

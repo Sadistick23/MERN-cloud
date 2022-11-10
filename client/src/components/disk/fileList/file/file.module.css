@@ -1,0 +1,81 @@
+.file {
+    border-bottom: solid 3px #566885;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    align-items: center;
+    cursor: pointer;
+}
+.file_img {
+    justify-self: center;
+    cursor: pointer;
+    padding: 8px 0;
+}
+.file_name {
+    padding: 20px 0;
+}
+.file_date {
+    grid-column-start: 5;
+    justify-self: center;
+}
+.file_size {
+    grid-column-start: 6;
+    justify-self: center;
+}
+.file_download {
+    border: none;
+    padding: 8px 20px;
+    background: transparent;
+    grid-column-start: 7;
+    justify-self: center;
+    cursor: pointer;
+}
+.file_delete {
+    border: none;
+    padding: 8px 20px;
+    background: transparent;
+    grid-column-start: 8;
+    justify-self: center;
+    cursor: pointer;
+}
+.double {
+    width: 100px;
+    height: 143px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.double_file_img {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+.double .double_file_name {
+    padding: 3px 5px 0 10px;
+    max-width: 90px;
+    max-height: 40px;
+    word-break: break-word;
+    overflow: hidden;
+}
+.triple {
+    width: 157px;
+    height: 203px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.triple_file_img {
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+}
+.triple .triple_file_name {
+    padding: 3px 5px 0 10px;
+    max-width: 140px;
+    max-height: 40px;
+    word-break: break-word;
+    overflow: hidden;
+}
