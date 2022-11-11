@@ -4,7 +4,9 @@ import styles from './MyInpui.module.css'
 const MyInput = (props) => {
     return (
         <input
-            onChange={(e) => props.setValue(e.target.value)}
+            name={props.name}
+            onChange={props.setValue}
+            onBlur={props.onBlur}
             value={props.value}
             className={styles.input}
             type={props.type}

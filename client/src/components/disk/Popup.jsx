@@ -17,7 +17,9 @@ const Popup = () => {
         dispatch(setPopupDisplay('none'))
         setValue('')
     }
-
+    const folderHandler = (e) => {
+        setValue(e.target.value)
+    }
     return (
         <div className={styles.popup} style={{display: popupDisplay}} onClick={() => dispatch(setPopupDisplay('none'))}>
             <div className={styles.popup__content} onClick={event => event.stopPropagation()}>
@@ -25,7 +27,7 @@ const Popup = () => {
                     <p className={styles.popup__title}>Создать новую папку</p>
                     <button onClick={() => dispatch(setPopupDisplay('none'))} className={styles.popup__close}>X</button>
                 </div>
-                <MyInput value={value} setValue={setValue} type="text" placeholder="Введите название папки..."/>
+                <MyInput name="folder" value={value} setValue={(e) => folderHandler(e)} type="text" placeholder="Введите название папки..."/>
                 <MyButton onclick={() => createDirHandler()}>Создать</MyButton>
             </div>
         </div>

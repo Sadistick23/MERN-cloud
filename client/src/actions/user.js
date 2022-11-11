@@ -19,7 +19,6 @@ api.interceptors.response.use((config) => {
         originalRequest._isRetry = true;
         try {
             const response = await axios.get(`${API_URL}/api/auth/refresh`, {withCredentials: true})
-            console.log(response)
             localStorage.setItem('token', response.data.accessToken)
             return api.request(originalRequest)
         } catch (e) {
@@ -28,18 +27,22 @@ api.interceptors.response.use((config) => {
     }
     throw error;
 })
-export const registration = async (name, lastName, email, password) => {
-    try {
-        const response = await api.post(`/api/auth/registration`, {name, lastName, email, password})
-        console.log(`Пользователь с ${response.data.user.email} был зарегестрирован`)
-    } catch (e) {
-        console.log(e.response.data.message)
+export const registration = (name, lastName, email, password) => {
+    return async dispatch => {
+        try {
+            const response = await api.post(`/api/auth/registration`, {name, lastName, email, password})
+            if (response.status === 200) {
+                window.location.replace('/login')
+            }
+        } catch (e) {
+            console.log(e.response.data.message)
+        }
     }
 }
 export const login = (email, password) => {
     return async dispatch => {
         try {
-            const response = await axios.post(`${API_URL}/api/auth/login`, {email, password}, { withCredentials: true })
+            const response = await api.post(`/api/auth/login`, {email, password}, { withCredentials: true })
             dispatch(setUser(response.data))
         } catch (e) {
             console.log(e.response.data.message)

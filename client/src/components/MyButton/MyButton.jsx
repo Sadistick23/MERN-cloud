@@ -7,6 +7,7 @@ const MyButton = (props) => {
             style={{marginLeft: props.marginLeft}}
             onClick={props.onclick}
             className={styles.btn}
+            disabled={props.disabled}
         >
             {props.children}
         </button>

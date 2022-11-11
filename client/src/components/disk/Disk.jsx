@@ -13,14 +13,15 @@ import Popup from "./Popup";
 import {setCurrentDir, setCurrentDirName, setHeaderDisplay, setPopupDisplay, setView} from "../../reducers/fileReducer";
 import Uploader from "./uploader/Uploader";
 import HeaderButtons from "./fileList/headerButtons/HeaderButtons";
+import HeaderPopup from "./fileList/headerButtons/headerPopup/headerPopup";
 
 const Disk = () => {
     const dispatch = useDispatch()
     const currentDir = useSelector(state => state.files.currentDir)
+    const currentFile = useSelector(state => state.files.currentFile)
     const dirStack = useSelector(state => state.files.dirStack)
     const dirNameStack = useSelector(state => state.files.dirNameStack)
     const dirName = useSelector(state => state.files.dirName)
-    const view = useSelector(state => state.files.view)
     const loader = useSelector(state => state.app.loader)
     const [dragEnter, setDragEnter] = useState(false)
     const [sort, setSort] = useState('type')
@@ -98,6 +99,7 @@ const Disk = () => {
                 </div>
                 <FileList />
                 <Popup />
+                <HeaderPopup />
                 <Uploader />
                 <HeaderButtons />
             </div>

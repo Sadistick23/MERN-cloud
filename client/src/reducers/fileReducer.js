@@ -12,11 +12,13 @@ const SET_HEADER_DISPLAY = 'SET_HEADER_DISPLAY'
 const SET_CURRENT_FILE = 'SET_CURRENT_FILE'
 const SET_INFO_DISPLAY = 'SET_INFO_DISPLAY'
 const CHECKED_FILE = 'CHECKED_FILE'
+const SET_HEADER_POPUP_DISPLAY = 'SET_HEADER_POPUP_DISPLAY'
 
 const defaultState = {
     files: [],
     currentDir: null,
     popupDisplay: 'none',
+    headerPopupDisplay: 'none',
     dirStack: [],
     dirName: 'MERN',
     dirNameStack: [],
@@ -59,6 +61,11 @@ export default function fileReducer(state = defaultState, action) {
             return {
                 ...state,
                 popupDisplay: action.payload
+            }
+        case SET_HEADER_POPUP_DISPLAY:
+            return {
+                ...state,
+                headerPopupDisplay: action.payload
             }
         case SET_HEADER_DISPLAY:
             return {
@@ -111,6 +118,7 @@ export const setFiles = (files) => ({type: SET_FILES, payload: files})
 export const setCurrentDir = (dir) => ({type: SET_CURRENT_DIR, payload: dir})
 export const addFile = (file) => ({type: ADD_FILE, payload: file})
 export const setPopupDisplay = (display) => ({type: SET_POPUP_DISPLAY, payload: display})
+export const setHeaderPopupDisplay = (display) => ({type: SET_HEADER_POPUP_DISPLAY, payload: display})
 export const setHeaderDisplay = (display) => ({type: SET_HEADER_DISPLAY, payload: display})
 export const pushToStack = (dir) => ({type: PUSH_TO_STACK, payload: dir})
 export const deleteFileAction = (dirId) => ({type: DELETE_FILE, payload: dirId})

@@ -45,6 +45,23 @@ export function createDir(dirId, fileName) {
         }
     }
 }
+export function renameDir(dirId, fileName, newName, type) {
+    return async dispatch => {
+        try {
+            const response = await axios.put(`${API_URL}/api/file`,{
+                oldFileName: fileName,
+                newFileName: newName,
+                type: type,
+                parent: dirId
+            },{
+                headers: {Authorization: `Bearer ${localStorage.getItem('token')}`}
+            })
+            dispatch(addFile(response.data))
+        } catch (e) {
+            console.log(e.response.data.message)
+        }
+    }
+}
 export function uploadFile(file, dirId) {
     return async dispatch => {
         try {

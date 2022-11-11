@@ -8,7 +8,7 @@ import {
     pushToStack,
     setCurrentDir,
     setCurrentDirName,
-    setHeaderDisplay, setInfoDisplay
+    setHeaderDisplay, setHeaderPopupDisplay, setInfoDisplay
 } from "../../../../reducers/fileReducer";
 import {deleteFile, downloadFile} from "../../../../actions/file";
 import InfoDisplay from "../infoDisplay/infoDisplay";
@@ -46,6 +46,10 @@ const HeaderButtons = () => {
             dispatch(setInfoDisplay("flex"))
         }
     }
+    function renameHandler(e) {
+        e.stopPropagation()
+        dispatch(setHeaderPopupDisplay('flex'))
+    }
     function deleteClickHandler(e) {
         e.stopPropagation()
         dispatch(deleteFile(currentFile))
@@ -65,6 +69,7 @@ const HeaderButtons = () => {
             </div>
             <div className={styles.right_bar}>
                 <button className={styles.btn} onClick={(e) => downloadClickHandler(e)}>Скачать</button>
+                <button className={styles.btn} onClick={(e) => renameHandler(e)}>Переименовать</button>
                 <button className={styles.btn} onClick={(e) => deleteClickHandler(e)}>Удалить</button>
                 <button className={styles.btn} onClick={() => dispatch(setHeaderDisplay('none'))}>X</button>
             </div>

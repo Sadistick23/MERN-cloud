@@ -14,7 +14,47 @@ class FileService {
                 }
             } catch (e) {
                 return reject({message: 'File ERROR'})
+            }
+        })
+    }
+    renameDir(req, file, oldFilePath, newFilePath) {
+        const oldPath = `${req.filePath}\\${file.user}\\${oldFilePath}`
+        const newPath = `${req.filePath}\\${file.user}\\${newFilePath}`
+        return new Promise((resolve, reject) => {
+            try {
+                if (fs.existsSync(oldPath)) {
+                    fs.rename(oldPath, newPath, (error) => {
+                        if (error) {
+                            console.log(error)
+                        }
+                    })
+                    return resolve({message: "Файл переименован"})
+                } else {
+                    return reject({message: "Такой папки не существует"})
+                }
 
+            } catch (e) {
+                return reject({message: 'Ошибка при переименовании файла'})
+            }
+        })
+    }
+    renameFile(req, file, oldFilePath, newFilePath) {
+        const oldPath = `${req.filePath}\\${file.user}\\${oldFilePath}`
+        const newPath = `${req.filePath}\\${file.user}\\${newFilePath}`
+        return new Promise((resolve, reject) => {
+            try {
+                if (fs.existsSync(oldPath)) {
+                    fs.rename(oldPath, newPath, (error) => {
+                        if (error) {
+                            console.log(error)
+                        }
+                    })
+                    return resolve({message: "Файл переименован"})
+                } else {
+                    return reject({message: "Такой папки не существует"})
+                }
+            } catch (e) {
+                return reject({message: 'Ошибка при переименовании файла'})
             }
         })
     }

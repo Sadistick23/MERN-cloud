@@ -28,6 +28,80 @@ class FileController {
             return res.status(400).json({message: e})
         }
     }
+
+    async renameDir(req, res) {
+        try {
+            const {newFileName, oldFileName, parent, type} = req.body
+            const file = await File.findOne({fileName: oldFileName, type, parent, user: req.user.id})
+            const parentFile = await File.findOne({_id: parent})
+            if (file) {
+                if (!parentFile) {
+                    const oldFilePath = file.path
+                    file.path = newFileName
+                    const newFilePath = file.path
+                    if (file.type === 'dir') {
+                        await fileService.renameDir(req, file, oldFilePath, newFilePath)
+                    } else {
+                        await fileService.renameFile(req, file, oldFilePath, newFilePath)
+                    }
+                } else {
+                    const oldFilePath = `${parentFile.path}\\${oldFileName}`
+                    file.path = `${parentFile.path}\\${newFileName}`
+                    const newFilePath = `${parentFile.path}\\${newFileName}`
+                    if (file.type === 'dir') {
+                        await fileService.renameDir(req, file, oldFilePath, newFilePath)
+                        parentFile.childs.push(file._id)
+                        await parentFile.save()
+                    } else {
+                        await fileService.renameFile(req, file, oldFilePath, newFilePath)
+                        parentFile.childs.push(file._id)
+                        await parentFile.save()
+                    }
+                }
+                if (!file) {
+                    return res.status(400).json({message: "Файл с таким именем не найден"})
+                }
+            } else {
+                return res.status(400).json({message: "Файл не найден"})
+            }
+
+            file.fileName = newFileName
+            await file.save()
+            return res.json(file)
+        } catch (e) {
+            console.log(e)
+            return res.status(400).json({message: e})
+        }
+    }
+    /*async renameDir(req, res) {
+        try {
+            const {newFileName, oldFileName, parent} = req.body
+            const file = await File.findOne({fileName: oldFileName, parent, user: req.user.id})
+            const parentFile = await File.findOne({_id: parent})
+            if (!parentFile) {
+                const oldFilePath = file.path
+                file.path = newFileName
+                const newFilePath = file.path
+                await fileService.renameDir(req, file, oldFilePath, newFilePath)
+            } else {
+                const oldFilePath = `${parentFile.path}\\${oldFileName}`
+                file.path = `${parentFile.path}\\${newFileName}`
+                const newFilePath = `${parentFile.path}\\${newFileName}`
+                await fileService.renameDir(req, file, oldFilePath, newFilePath)
+                parentFile.childs.push(file._id)
+                await parentFile.save()
+            }
+            if (!file) {
+                return res.status(400).json({message: "Файл с таким именем не найден"})
+            }
+            file.fileName = newFileName
+            await file.save()
+            return res.json(file)
+        } catch (e) {
+            console.log(e)
+            return res.status(400).json({message: e})
+        }
+    }*/
     async fetFiles(req, res) {
         try {
             const {sort} = req.query

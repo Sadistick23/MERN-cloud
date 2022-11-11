@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489792c7-e03d-43a2-8b13-4347abe414ba" name="Changes" comment="deploy 8">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="489792c7-e03d-43a2-8b13-4347abe414ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/disk/fileList/headerButtons/headerPopup/headerPopup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/disk/fileList/headerButtons/headerPopup/headerPopup.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MyButton/MyButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MyButton/MyButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MyInput/MyInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MyInput/MyInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/disk/Disk.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/disk/Disk.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/disk/Popup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/disk/Popup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/disk/fileList/headerButtons/HeaderButtons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/disk/fileList/headerButtons/HeaderButtons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/login/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/login/login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/registration/registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/registration/registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/registration/registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/registration/registration.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/fileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/fileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/file-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/file-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/file-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/file-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/file-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/file-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/user-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/user-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +36,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2GaMWWhtdXk4CJRaqwkKHmjuBxH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -27,22 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ProjectJavaScript/CloudMERN/client/public",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "D:\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProjectJavaScript/CloudMERN/client/public&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ProjectJavaScript\CloudMERN\client\public" />
@@ -50,11 +69,11 @@
       <recent name="D:\ProjectJavaScript\CloudMERN\client\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\components\disk\fileList\headerButtons\headerPopup" />
       <recent name="D:\ProjectJavaScript\CloudMERN\client" />
       <recent name="D:\ProjectJavaScript\CloudMERN\client\public" />
       <recent name="D:\ProjectJavaScript\CloudMERN\client\src\components\disk\fileList" />
       <recent name="D:\ProjectJavaScript\CloudMERN\client\src\assets\img" />
-      <recent name="D:\ProjectJavaScript\CloudMERN\client\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +112,10 @@
       <workItem from="1667977705002" duration="7056000" />
       <workItem from="1668011413910" duration="7073000" />
       <workItem from="1668061673715" duration="8682000" />
-      <workItem from="1668082875160" duration="856000" />
+      <workItem from="1668082875160" duration="2941000" />
+      <workItem from="1668088978376" duration="595000" />
+      <workItem from="1668158820285" duration="13169000" />
+      <workItem from="1668174435656" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="deploy react app2">
       <created>1667930449553</created>
@@ -410,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668021962743</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="MERN-cloud">
+      <created>1668083840794</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1668083840794</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +493,7 @@
     <MESSAGE value="deploy server6" />
     <MESSAGE value="deploy server7" />
     <MESSAGE value="deploy 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy 8" />
+    <MESSAGE value="MERN-cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="MERN-cloud" />
   </component>
 </project>
